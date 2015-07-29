@@ -1,11 +1,21 @@
 package main;
 
+/**
+ * @author andres
+ *
+ */
 public class YodaConverter {
-
+	/**
+	 * no-args constructor
+	 */
 	public YodaConverter(){
 
 	}
 
+	/**
+	 * @param sentence
+	 * @return sentence translated to yoda-speak
+	 */
 	public String translate(String sentence){
 		String converted = "";
 		
