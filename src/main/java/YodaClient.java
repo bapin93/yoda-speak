@@ -1,4 +1,4 @@
-package main;
+package main.java;
 
 public class YodaClient {
 	public static void main(String[] args) {
