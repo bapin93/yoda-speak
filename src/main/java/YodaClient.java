@@ -9,8 +9,5 @@ public class YodaClient {
 		
 		System.out.println(yoda.basicTranslate(sentence));	
 		System.out.println(yoda.speechTaggerTranslate(sentence));
-		
-		
-		
 	}
 }
