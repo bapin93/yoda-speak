@@ -13,7 +13,7 @@ public class YodaConverterTest {
 	public void test() {
 		YodaConverter converter = new YodaConverter();
 		String initial = "This string will be converted.";
-		String translated = converter.translate(initial);
-		assertTrue(translated.equalsIgnoreCase("Will be converted, this string."));
+		String basicTranslated = converter.basicTranslate(initial);
+		assertTrue(basicTranslated.equalsIgnoreCase("Will be converted, this string."));
 	}
 }
